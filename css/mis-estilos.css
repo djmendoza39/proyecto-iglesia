@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+        
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+} 
+h1{
+  font-weight: 600;
+} 
+header {
+  background-color: #fff3e5;
+}
+
+img, a{
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14) , 0px 3px 1px -2px rgba(0,0,0,0.12) , 0px 1px 5px 0px rgba(0,0,0,0.2) ;
+}
+
+.btn-warning{
+  background-color: #FBAD3C;
+}
+figure.container-img-logo {
+  width: 70px;
+  height: 80px;
+}
+/* seccion-slide */
+.seccion-slide {
+  background: rgb(255, 243, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 243, 229, 1) 0%,
+    rgba(255, 243, 229, 0.1600841020001751) 61%,
+    rgba(255, 243, 229, 0.16848746334471287) 63%
+  );
+}
+
+.img1-slide, .img2-slide{
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  
+}
+/* / */
+
+/* seccion work */
+.seccion-our-work,
+.seccion-become {
+  background-color: #fff3e5;
+}
+
+/* / */
+
+/* seccion footer */
+footer{
+  background-color: #FCC585;
+}
